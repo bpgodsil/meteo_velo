@@ -3,4 +3,6 @@
 
 /data/raw/*-comptage-velo-donnees-sites-comptage.csv
 
+*.ipynb_checkpoints/
+
 
