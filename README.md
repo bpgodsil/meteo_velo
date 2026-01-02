@@ -43,12 +43,15 @@ notebooks/
 ## Notebooks (overview)
 
 01_weather_fetch_and_preprocess
+
 Fetches and caches weather data and maps weather codes to behavioral categories. Provides light-touch data sanity checks, confirming that the data are complete and the values align with the expected ranges.
 
 02_bike_data_extraction (comming soon)
-Will extract a small set of selected counters from the large raw bike count files.
+
+Extract a subset of counter site data from the large raw bike count files. Normalizes data/time variable.
 
 03_bike_data_preprocessing (rough)
+
 Will clean bike count data and adds calendar- and context-based features (weekday, holidays, school calendar, grèves).
 
 ## Status

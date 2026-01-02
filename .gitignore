@@ -1,7 +1,30 @@
 
 # Untracked files:
 
+
+# R
+
+.Rhistory
+
+.RData
+
+.Rproj.user/
+
+# Data (raw + derived)
+data/raw/
+
+data/extracted/
+
+*.parquet
+
+*.xlsx
+
+# Notebooks (optional: outputs)
+.ipynb_checkpoints/
+
 /data/raw/*-comptage-velo-donnees-sites-comptage.csv
+
+/data/raw/*-comptage-velo-donnees-compteurs.csv
 
 *.ipynb_checkpoints/
 
