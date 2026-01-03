@@ -11,9 +11,12 @@
 .Rproj.user/
 
 # Data (raw + derived)
+
 data/raw/
 
 data/extracted/
+
+data/external/
 
 *.parquet
 
@@ -21,10 +24,6 @@ data/extracted/
 
 # Notebooks (optional: outputs)
 .ipynb_checkpoints/
-
-/data/raw/*-comptage-velo-donnees-sites-comptage.csv
-
-/data/raw/*-comptage-velo-donnees-compteurs.csv
 
 *.ipynb_checkpoints/
 

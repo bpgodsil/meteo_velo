@@ -3,6 +3,7 @@
 This project explores hourly bicycle count data from Paris alongside weather data to understand how temporal, contextual, and environmental factors influence cycling behavior.
 
 The focus is on exploratory analysis, feature design, and preprocessing, with the goal of producing a clean, defensible dataset for later modeling.
+
 The repository documents an in-progress analytical workflow, not a finished report.
 
 Data sources
@@ -29,9 +30,9 @@ Full raw files are large and not included in the repository
 
 data/
   raw/            # Published source data (not committed)
-  external/       # Cached API outputs
+  external/       # Cached API outputs (not committed)
   reference/      # Lookup tables (weather codes, calendars)
-  extracted/      # Subsets extracted from raw data
+  extracted/      # Subsets extracted from raw data (not committed)
   processed/      # Clean, feature-ready datasets
 
 notebooks/
@@ -46,11 +47,11 @@ notebooks/
 
 Fetches and caches weather data and maps weather codes to behavioral categories. Provides light-touch data sanity checks, confirming that the data are complete and the values align with the expected ranges.
 
-02_bike_data_extraction (comming soon)
+02_bike_data_extraction
 
-Extract a subset of counter site data from the large raw bike count files. Normalizes data/time variable.
+Extract a subset of counter site data from the large raw bike count files. Normalizes data/time variable. Concatenates across years.
 
-03_bike_data_preprocessing (rough)
+03_bike_data_preprocessing (very rough)
 
 Will clean bike count data and adds calendar- and context-based features (weekday, holidays, school calendar, grèves).
 
