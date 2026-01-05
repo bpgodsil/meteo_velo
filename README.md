@@ -51,7 +51,7 @@ Fetches and caches weather data and maps weather codes to behavioral categories.
 
 Extract a subset of counter site data from the large raw bike count files. Normalizes data/time variable. Concatenates across years.
 
-03_bike_data_preprocessing (very rough)
+03_bike_data_preprocessing (in progress)
 
 Will clean bike count data and adds calendar- and context-based features (weekday, holidays, school calendar, grèves).
 
