@@ -27,4 +27,11 @@ data/external/
 
 *.ipynb_checkpoints/
 
+# OS noise
+desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+
 
