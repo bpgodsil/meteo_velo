@@ -1,7 +1,5 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-
 
 
 def compute_zero_runs(df, min_run_days):  
